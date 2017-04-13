@@ -10,7 +10,10 @@ class Screen_UI implements ATM_UI {
 	System.out.println("ScreenUI: req Trnsfr Amt");
     }
     public void reqPayGasAmount() {
-	System.out.println("SpeechUI: req PayGas Amt");
+	System.out.println("ScreenUI: req PayGas Amt");
+    }
+	public void reqBuyStampAmount() {
+	System.out.println("ScreenUI: req BuyStamp Amt");
     }
 }
 

@@ -7,7 +7,7 @@ public class ATM {
 	if (args.length != 2) {
 	    System.out.println("usage: java ATM dev transaction");
 	    System.out.println("\tdev = {screen, braille, speech, hologram}");
-	    System.out.println("\ttransaction = {deposit, withdraw}");
+	    System.out.println("\ttransaction = {deposit, withdraw, paygas, buystamp}");
 	    System.out.println();
 	    System.exit(0);
 	}
@@ -32,6 +32,8 @@ public class ATM {
 	    t = new TransferTransaction(theDevice);
 	else if ("paygas".equals(transaction))
 	    t = new PayGasTransaction(theDevice);
+	else if ("buystamp".equals(transaction))
+		t = new BuyStampTransaction(theDevice);
 	else {
 	    System.out.println("Unknown transaction name: " + transaction);
 	    System.out.println();

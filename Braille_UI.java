@@ -11,7 +11,10 @@ class Braille_UI implements ATM_UI {
 	System.out.println("BrailleUI: req Trnsfr Amt");
     }
     public void reqPayGasAmount() {
-	System.out.println("SpeechUI: req PayGas Amt");
+	System.out.println("BrailleUI: req PayGas Amt");
+    }
+	public void reqBuyStampAmount() {
+	System.out.println("BrailleUI: req BuyStamp Amt");
     }
 }
 

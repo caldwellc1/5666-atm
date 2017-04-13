@@ -12,6 +12,9 @@ class Speech_UI implements ATM_UI {
     public void reqPayGasAmount() {
 	System.out.println("SpeechUI: req PayGas Amt");
     }
+	public void reqBuyStampAmount() {
+	System.out.println("SpeechUI: req BuyStamp Amt");
+    }
 }
 
 
