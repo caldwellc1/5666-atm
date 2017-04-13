@@ -16,8 +16,8 @@ class Braille_UI implements ATM_UI {
 	public void reqBuyStampAmount() {
 	System.out.println("BrailleUI: req BuyStamp Amt");
     }
-	public void confirmWithdrawAmt() {
-	System.out.println("BrailleUI: confirm Wdrw Amt");
+	public void verifyWithdrawAmount() {
+	System.out.println("BrailleUI: verify Wdrw Amt");
     }
 }
 

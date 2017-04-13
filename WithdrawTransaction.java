@@ -6,7 +6,7 @@ class WithdrawTransaction extends Transaction {
     public void execute() {
 	System.out.print("TID: " + super.getTID() + ":: " );
 	uiDevice.reqWithdrawAmount();
-	uiDevice.confirmWithdrawAmt();
+	uiDevice.verifyWithdrawAmount();
     }
 }
 

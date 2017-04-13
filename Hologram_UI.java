@@ -16,8 +16,8 @@ class Hologram_UI implements ATM_UI {
 	public void reqBuyStampAmount() {
 	System.out.println("HologramUI: req BuyStamp Amt");
     }
-	public void confirmWithdrawAmt() {
-	System.out.println("HologramUI: confirm Wdrw Amt");
+	public void verifyWithdrawAmount() {
+	System.out.println("HologramUI: verify Wdrw Amt");
     }
 }
 
