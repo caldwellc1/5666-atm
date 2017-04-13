@@ -15,6 +15,9 @@ class Screen_UI implements ATM_UI {
 	public void reqBuyStampAmount() {
 	System.out.println("ScreenUI: req BuyStamp Amt");
     }
+	public void confirmWithdrawAmt() {
+	System.out.println("ScreenUI: confirm Wdrw Amt");
+    }
 }
 
 

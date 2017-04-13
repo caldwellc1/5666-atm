@@ -15,6 +15,9 @@ class Speech_UI implements ATM_UI {
 	public void reqBuyStampAmount() {
 	System.out.println("SpeechUI: req BuyStamp Amt");
     }
+	public void confirmWithdrawAmt() {
+	System.out.println("SpeechUI: confirm Wdrw Amt");
+    }
 }
 
 
