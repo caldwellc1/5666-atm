@@ -1,0 +1,8 @@
+The ISP solution says for WithdrawTransaction to use a device
+implementing a Withdraw_UI; not a device that supports all of
+the transactions.
+
+Of course, the device *will* actually support all the transactions,
+but WithdrawTransaction doesn't have to worry about those.
+Separating (segregating) the "polluted" ("fat") device interface
+let's us accomplish this. See figure 12-6.
