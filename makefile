@@ -25,3 +25,7 @@ test:
 	java ATM speech  withdraw
 	java ATM speech  transfer
 	java ATM speech  paygas
+	java ATM hologram deposit	
+	java ATM hologram  withdraw
+	java ATM hologram  transfer
+	java ATM hologram  paygas
