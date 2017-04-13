@@ -6,6 +6,7 @@ class DepositTransaction extends Transaction {
     public void execute() {
 	System.out.print("TID: " + super.getTID() + ":: " );
 	uiDevice.reqDepositAmount();
+	uiDevice.verifyDepAmount();
     }
 }
 

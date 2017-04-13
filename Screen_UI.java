@@ -18,6 +18,9 @@ class Screen_UI implements ATM_UI {
 	public void confirmWithdrawAmt() {
 	System.out.println("ScreenUI: confirm Wdrw Amt");
     }
+	public void verifyDepAmount() {
+	System.out.println("ScreenUI: verify Dep Amt");
+    }
 }
 
 

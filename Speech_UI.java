@@ -18,6 +18,9 @@ class Speech_UI implements ATM_UI {
 	public void confirmWithdrawAmt() {
 	System.out.println("SpeechUI: confirm Wdrw Amt");
     }
+	public void verifyDepAmount() {
+	System.out.println("SpeechUI: verify Dep Amt");
+    }
 }
 
 
